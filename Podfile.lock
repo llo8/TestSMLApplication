@@ -1,0 +1,51 @@
+PODS:
+  - DiKit (0.4.0):
+    - DiKit/CommonAssemblies (= 0.4.0)
+    - DiKit/Core (= 0.4.0)
+  - DiKit/CommonAssemblies (0.4.0):
+    - DiKit/Core
+    - Dip-UI
+  - DiKit/Core (0.4.0):
+    - Dip (~> 5.0)
+  - Dip (5.1)
+  - Dip-UI (1.1):
+    - Dip (~> 5.0)
+  - LaunchKit (0.2.2):
+    - DiKit/CommonAssemblies (~> 0.4.0)
+  - PKHUD (4.2.3)
+  - Realm (2.9.0):
+    - Realm/Headers (= 2.9.0)
+  - Realm/Headers (2.9.0)
+  - RealmSwift (2.9.0):
+    - Realm (= 2.9.0)
+  - ViperKit (0.8.2):
+    - ViperKit/Core (= 0.8.2)
+  - ViperKit/Core (0.8.2)
+  - ViperKit/Dip (0.8.2):
+    - DiKit
+    - Dip-UI
+    - ViperKit/Core
+  - ViperKit/PKHUD (0.8.2):
+    - PKHUD (~> 4.0)
+    - ViperKit/Core
+
+DEPENDENCIES:
+  - LaunchKit
+  - RealmSwift
+  - ViperKit
+  - ViperKit/Dip
+  - ViperKit/PKHUD
+
+SPEC CHECKSUMS:
+  DiKit: ca953fe734aa2c818b47b95ef1b500c0a95172c0
+  Dip: f5a7bd4e1a8af48516e4adc0952d6efc29015589
+  Dip-UI: 1c64807d98d493281e87651921b80e1c2dce1f2c
+  LaunchKit: e441da81a3d1d41a1da41869411e3a2dc64518ae
+  PKHUD: c7692163a09875cbf15827dc581df3c5cf7f1015
+  Realm: f14ab1673502559cb16592ddb8f383c474c13e05
+  RealmSwift: 16ad2c187042c4934f49750375582fe508627dcb
+  ViperKit: f01616cbd3e6ad489812c600d1af97f0c17c5185
+
+PODFILE CHECKSUM: cd6c8f203301af90657ddb445cb56168d09bcc26
+
+COCOAPODS: 1.2.1

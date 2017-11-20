@@ -1,0 +1,27 @@
+### Headers settings
+company: S Media Link
+
+### Xcode project settings
+project_name: TestSML
+xcodeproj_path: TestSML.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: TestSML
+
+# The file path for new modules
+project_file_path: TestSML/Modules
+
+# The Xcode group path to new modules
+project_group_path: TestSML/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+catalogs:
+- 'https://gitlab.smedialink.com/iOS/generamba_templates.git'
+
+### Templates
+templates:
+- {name: sml_viper_dip}
+- {name: sml_viper}
