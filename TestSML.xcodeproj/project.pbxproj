@@ -41,14 +41,7 @@
 		DC57641B1FBC9FBC006DE0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC57641A1FBC9FBC006DE0FD /* Assets.xcassets */; };
 		DC57641E1FBC9FBC006DE0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC57641C1FBC9FBC006DE0FD /* LaunchScreen.storyboard */; };
 		DC5764291FBC9FBD006DE0FD /* TestSMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5764281FBC9FBD006DE0FD /* TestSMLTests.swift */; };
-		DC57643B1FBDB5E5006DE0FD /* MainAssembliesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57643A1FBDB5E5006DE0FD /* MainAssembliesFactory.swift */; };
-		DC5764411FBDDD31006DE0FD /* MainApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5764401FBDDD31006DE0FD /* MainApplication.swift */; };
-		DC5764441FBDE3CA006DE0FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5764431FBDE3CA006DE0FD /* main.swift */; };
-		DC5764471FBDEE3F006DE0FD /* MainLaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5764451FBDEE3E006DE0FD /* MainLaunchRouter.swift */; };
-		DC5764481FBDEE3F006DE0FD /* LaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5764461FBDEE3F006DE0FD /* LaunchRouter.swift */; };
-		DC57644A1FBDF133006DE0FD /* AppDelegatesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5764491FBDF132006DE0FD /* AppDelegatesAssembly.swift */; };
 		DC57644C1FBDF317006DE0FD /* StoryboardsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57644B1FBDF317006DE0FD /* StoryboardsAssembly.swift */; };
-		DC57644E1FBDF323006DE0FD /* SystemInfrastructureAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57644D1FBDF323006DE0FD /* SystemInfrastructureAssembly.swift */; };
 		DCBC599F1FC21351002C2D13 /* BaseRealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC599E1FC21351002C2D13 /* BaseRealmObject.swift */; };
 		DCBC59A21FC2283D002C2D13 /* ListItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC59A11FC2283D002C2D13 /* ListItemService.swift */; };
 		DCBC59A41FC22B14002C2D13 /* ItemStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC59A31FC22B14002C2D13 /* ItemStorage.swift */; };
@@ -56,6 +49,8 @@
 		DCBC59A81FC22FD1002C2D13 /* ServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC59A61FC22FD1002C2D13 /* ServicesAssembly.swift */; };
 		DCBC59AA1FC2323C002C2D13 /* SettingItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC59A91FC2323C002C2D13 /* SettingItemService.swift */; };
 		DCBC59AC1FC23706002C2D13 /* RealmStorageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC59AB1FC23706002C2D13 /* RealmStorageProtocols.swift */; };
+		DCEC3F271FCD676D00E7FB41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC3F261FCD676D00E7FB41 /* main.swift */; };
+		DCEC3F291FCD6EF900E7FB41 /* AppDelegatesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC3F281FCD6EF900E7FB41 /* AppDelegatesAssembly.swift */; };
 		ED2C04606BFDEA633E67E8E6 /* DetailsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC662BF6D9BB02BFA3F4542 /* DetailsRouterInput.swift */; };
 		EDA20DF06FD23605ECD48830 /* ListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D804A56C41F0249D45788 /* ListModuleInput.swift */; };
 		F5E0AF6C767E01669CA51C1C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC58DB531E87048E961347 /* ListViewController.swift */; };
@@ -111,14 +106,7 @@
 		DC5764241FBC9FBD006DE0FD /* TestSMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5764281FBC9FBD006DE0FD /* TestSMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSMLTests.swift; sourceTree = "<group>"; };
 		DC57642A1FBC9FBD006DE0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC57643A1FBDB5E5006DE0FD /* MainAssembliesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembliesFactory.swift; sourceTree = "<group>"; };
-		DC5764401FBDDD31006DE0FD /* MainApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApplication.swift; sourceTree = "<group>"; };
-		DC5764431FBDE3CA006DE0FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		DC5764451FBDEE3E006DE0FD /* MainLaunchRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLaunchRouter.swift; sourceTree = "<group>"; };
-		DC5764461FBDEE3F006DE0FD /* LaunchRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRouter.swift; sourceTree = "<group>"; };
-		DC5764491FBDF132006DE0FD /* AppDelegatesAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegatesAssembly.swift; sourceTree = "<group>"; };
 		DC57644B1FBDF317006DE0FD /* StoryboardsAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardsAssembly.swift; sourceTree = "<group>"; };
-		DC57644D1FBDF323006DE0FD /* SystemInfrastructureAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemInfrastructureAssembly.swift; sourceTree = "<group>"; };
 		DCBC599E1FC21351002C2D13 /* BaseRealmObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRealmObject.swift; sourceTree = "<group>"; };
 		DCBC59A11FC2283D002C2D13 /* ListItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemService.swift; sourceTree = "<group>"; };
 		DCBC59A31FC22B14002C2D13 /* ItemStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStorage.swift; sourceTree = "<group>"; };
@@ -126,6 +114,8 @@
 		DCBC59A61FC22FD1002C2D13 /* ServicesAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesAssembly.swift; sourceTree = "<group>"; };
 		DCBC59A91FC2323C002C2D13 /* SettingItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItemService.swift; sourceTree = "<group>"; };
 		DCBC59AB1FC23706002C2D13 /* RealmStorageProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmStorageProtocols.swift; sourceTree = "<group>"; };
+		DCEC3F261FCD676D00E7FB41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DCEC3F281FCD6EF900E7FB41 /* AppDelegatesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegatesAssembly.swift; sourceTree = "<group>"; };
 		F164F1ED6AE4F6781230025E /* SettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F172CFBB5D245764008D39A2 /* ListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
 		F67C1A928D955A1EA912D6F5 /* ListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListRouterInput.swift; sourceTree = "<group>"; };
@@ -349,7 +339,7 @@
 		DC5764381FBDA4B8006DE0FD /* App */ = {
 			isa = PBXGroup;
 			children = (
-				DC57643F1FBDD84A006DE0FD /* Base */,
+				DCEC3F261FCD676D00E7FB41 /* main.swift */,
 				DC5764391FBDB59D006DE0FD /* Assemblies */,
 				DC5764421FBDE396006DE0FD /* AppDelegate */,
 				DC57641C1FBC9FBC006DE0FD /* LaunchScreen.storyboard */,
@@ -362,10 +352,7 @@
 		DC5764391FBDB59D006DE0FD /* Assemblies */ = {
 			isa = PBXGroup;
 			children = (
-				DC57643A1FBDB5E5006DE0FD /* MainAssembliesFactory.swift */,
-				DC5764491FBDF132006DE0FD /* AppDelegatesAssembly.swift */,
 				DC57644B1FBDF317006DE0FD /* StoryboardsAssembly.swift */,
-				DC57644D1FBDF323006DE0FD /* SystemInfrastructureAssembly.swift */,
 				DCBC59A61FC22FD1002C2D13 /* ServicesAssembly.swift */,
 				DCBC59A51FC22FD1002C2D13 /* StoragesAssembly.swift */,
 			);
@@ -396,21 +383,11 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
-		DC57643F1FBDD84A006DE0FD /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				DC5764431FBDE3CA006DE0FD /* main.swift */,
-				DC5764401FBDDD31006DE0FD /* MainApplication.swift */,
-				DC5764461FBDEE3F006DE0FD /* LaunchRouter.swift */,
-				DC5764451FBDEE3E006DE0FD /* MainLaunchRouter.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		DC5764421FBDE396006DE0FD /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				DC5764131FBC9FBC006DE0FD /* AppDelegate.swift */,
+				DCEC3F281FCD6EF900E7FB41 /* AppDelegatesAssembly.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -516,10 +493,12 @@
 				TargetAttributes = {
 					DC57640F1FBC9FBC006DE0FD = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					DC5764231FBC9FBD006DE0FD = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DC57640F1FBC9FBC006DE0FD;
 					};
@@ -620,6 +599,7 @@
 			files = (
 				DC5764141FBC9FBC006DE0FD /* AppDelegate.swift in Sources */,
 				B9D3029EBB16A6C648C5B8F4 /* ListModuleAssembly.swift in Sources */,
+				DCEC3F271FCD676D00E7FB41 /* main.swift in Sources */,
 				4256D2577EE1E81E50BC6C00 /* ListInteractor.swift in Sources */,
 				DCBC59AC1FC23706002C2D13 /* RealmStorageProtocols.swift in Sources */,
 				AD113CEB5EAE40CC61C8C3ED /* ListInteractorIO.swift in Sources */,
@@ -628,7 +608,6 @@
 				27E20E2601F111E89B526FC3 /* ListPresenter.swift in Sources */,
 				8515CE120620C5D067003D6E /* ListRouter.swift in Sources */,
 				DC56659C1FC0577000D2387C /* ListItem.swift in Sources */,
-				DC57644E1FBDF323006DE0FD /* SystemInfrastructureAssembly.swift in Sources */,
 				66B304EFEB9936A4DFF9A09D /* ListRouterInput.swift in Sources */,
 				DC5665901FC0478A00D2387C /* ItemTableViewCell.swift in Sources */,
 				F5E0AF6C767E01669CA51C1C /* ListViewController.swift in Sources */,
@@ -636,31 +615,26 @@
 				821E22903452B232554589E2 /* DetailsModuleAssembly.swift in Sources */,
 				74E105944F6962D528F1E6E8 /* DetailsInteractor.swift in Sources */,
 				DC56659E1FC0A2BC00D2387C /* FilledButton.swift in Sources */,
-				DC5764441FBDE3CA006DE0FD /* main.swift in Sources */,
 				DC57644C1FBDF317006DE0FD /* StoryboardsAssembly.swift in Sources */,
 				557B4509283FDE3581F5FE0A /* DetailsInteractorIO.swift in Sources */,
-				DC57644A1FBDF133006DE0FD /* AppDelegatesAssembly.swift in Sources */,
 				6710499BFB667A30CF3A050F /* DetailsModuleInput.swift in Sources */,
 				78B18BBE13349D9CFBFC2EAD /* DetailsPresenter.swift in Sources */,
 				B9476A7D3B029F9B2C83B4B7 /* DetailsRouter.swift in Sources */,
 				ED2C04606BFDEA633E67E8E6 /* DetailsRouterInput.swift in Sources */,
-				DC5764471FBDEE3F006DE0FD /* MainLaunchRouter.swift in Sources */,
 				DCBC59A81FC22FD1002C2D13 /* ServicesAssembly.swift in Sources */,
 				1999D199158891C70761F81C /* DetailsViewController.swift in Sources */,
-				DC57643B1FBDB5E5006DE0FD /* MainAssembliesFactory.swift in Sources */,
 				DCBC59A21FC2283D002C2D13 /* ListItemService.swift in Sources */,
 				583167EA87849050BAE0009D /* DetailsViewIO.swift in Sources */,
 				CFA2DA0065F4CA9D6E0273D5 /* SettingsModuleAssembly.swift in Sources */,
 				4C799F35AAFC9C1E13E1E5F0 /* SettingsInteractor.swift in Sources */,
 				B54D5AB3F62E6ACCD0700117 /* SettingsInteractorIO.swift in Sources */,
-				DC5764411FBDDD31006DE0FD /* MainApplication.swift in Sources */,
 				AFD4C60CBAAE17654951476D /* SettingsModuleInput.swift in Sources */,
-				DC5764481FBDEE3F006DE0FD /* LaunchRouter.swift in Sources */,
 				395277773E4788C2A5848132 /* SettingsPresenter.swift in Sources */,
 				DCBC599F1FC21351002C2D13 /* BaseRealmObject.swift in Sources */,
 				DCBC59A41FC22B14002C2D13 /* ItemStorage.swift in Sources */,
 				21A0C5FA24A7A3A229551892 /* SettingsRouter.swift in Sources */,
 				D43654FCFCFFF056C3D26A0C /* SettingsRouterInput.swift in Sources */,
+				DCEC3F291FCD6EF900E7FB41 /* AppDelegatesAssembly.swift in Sources */,
 				0D3935ECAD0AC55833C3A0A9 /* SettingsViewController.swift in Sources */,
 				DCBC59A71FC22FD1002C2D13 /* StoragesAssembly.swift in Sources */,
 				1FCEF1CF61AD2EFA12561D4D /* SettingsViewIO.swift in Sources */,
@@ -825,7 +799,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.llo8.TestSML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -841,7 +816,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.llo8.TestSML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -857,7 +833,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.llo8.TestSMLTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSML.app/TestSML";
 			};
@@ -874,7 +851,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.llo8.TestSMLTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSML.app/TestSML";
 			};

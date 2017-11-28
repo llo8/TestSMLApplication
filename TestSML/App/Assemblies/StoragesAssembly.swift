@@ -6,11 +6,13 @@
 //  Copyright © 2017 Юрий. All rights reserved.
 //
 
-import DiKit
+import DipUtils
+import Dip
 
-final class StoragesAssembly: BaseCoreAssembly {
-    override init(withRoot collaborator: RootCoreAssembly) {
-        super.init(withRoot: collaborator)
+final class StoragesAssembly: DipAssembly {
+    func register(into container: DependencyContainer,
+                  with assembliesProvider: AssembliesProvider) {
+        
         container.register(.singleton) { ItemStorageRealm() as ItemStorage }
     }
 }

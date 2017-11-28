@@ -6,18 +6,18 @@
 //  Copyright © 2017 Юрий. All rights reserved.
 //
 
-import DiKit
+import Foundation
+import DipUtils
+import Dip
 
-final class StoryboardsAssembly: BaseCoreAssembly {
+final class StoryboardsAssembly: DipAssembly {
+    
     let storyboardTag = "Main"
     
-    var initialStoryboard: UIStoryboard {
-        return resolve(tag: storyboardTag)
-    }
-
-    init(withRoot root: RootCoreAssembly, systemInfrastructure: SystemInfrastructureAssembly) {
-        super.init(withRoot: root)
+    func register(into container: DependencyContainer,
+                  with assembliesProvider: AssembliesProvider) {
+        
+        container.register(.eagerSingleton) { Bundle.main }
         container.register(.singleton, tag: storyboardTag) { UIStoryboard(name: self.storyboardTag, bundle: $0) }
-        bootstrap()
     }
 }

@@ -8,8 +8,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'TestSML' do
     pod 'ViperKit'
     pod 'ViperKit/PKHUD'
-    pod 'ViperKit/Dip'
-    pod 'LaunchKit'
-    
+
+    pod 'DipUtils', :path => './../DipUtils'
+
     pod 'RealmSwift'
 end

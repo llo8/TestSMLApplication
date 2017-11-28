@@ -2,17 +2,20 @@
 //  ServicesAssembly.swift
 //  TestSML
 //
-//  Created by Юрий on 16.11.17.
+//  Created by Юрий on 16A.11.17.
 //  Copyright © 2017 Юрий. All rights reserved.
 //
 
-import DiKit
+import DipUtils
+import Dip
 
-final class ServicesAssembly: BaseServiceAssembly {
-    override init(withCollaborator collaborator: RootServicesAssembly) {
-        super.init(withCollaborator: collaborator)
-        container.register(.eagerSingleton) { ListItemServiceImp(storage: $0) as ListItemService }
-        container.register(.eagerSingleton) { SettingItemServiceImp(storage: $0) as SettingItemService}
-        bootstrap()
+final class ServicesAssembly: DipAssembly {
+    func register(into container: DependencyContainer,
+                  with assembliesProvider: AssembliesProvider) {
+        
+        unowned let storage = assembliesProvider.container(of: StoragesAssembly.self)
+        
+        container.register(.eagerSingleton) { ListItemServiceImp(storage: try storage.resolve()) as ListItemService }
+        container.register(.eagerSingleton) { SettingItemServiceImp(storage: try storage.resolve()) as SettingItemService}
     }
 }
